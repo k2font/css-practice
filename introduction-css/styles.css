@@ -1,0 +1,37 @@
+h1 {
+  color: red;
+}
+
+p, li {
+  color: green;
+}
+
+li {
+  list-style-type: none;
+}
+
+.special {
+  color: orange;
+  font-weight: bold;
+}
+
+/* ディセンダントコンビネーター。スペースを間に入れる。 */
+li em {
+  color: rebeccapurple;
+}
+
+/* h1の次の要素だけ同じスタイルを適用したい場合 */
+/* h1 + p {
+  font-size: 200%;
+} */
+
+/* 状態に基づいたスタイリング */
+/* 例えばリンクのホバーとか */
+a:hover {
+  color: pink;
+}
+
+/* 一度クリックしたページかどうかとか */
+a:visited {
+  color: lightblue;
+}
