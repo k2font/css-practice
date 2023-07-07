@@ -1,0 +1,19 @@
+/* なんでもいいのでclassが指定されているセレクタにのみ適用する */
+li[class] {
+  font-size: 200%;
+}
+
+/* classがaの要素のみ背景を黄色にする */
+li[class="a"] {
+  background-color: yellow;
+}
+
+/* aクラスを持つセレクタにマッチするが、空白で区切られたクラスにaが含まれている場合にもマッチする */
+li[class~="a"] {
+  color: red;
+}
+
+/* かっこの末尾にiを置くと、大文字小文字を区別せずに一致するかどうか試行することができる */
+li[class^="a" i] {
+  background-color: green;
+}

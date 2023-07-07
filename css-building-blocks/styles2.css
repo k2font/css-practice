@@ -1,0 +1,15 @@
+/* 各要素の戦闘行を必ず大きい太字にする */
+article p::first-line {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+/* ::before ::after */
+/* beforeの場合は要素の先頭にコンテンツを追加する */
+.box::before {
+  content: "This should show before the other content.";
+}
+/* 特に ::after はアイコンを末尾に設置する際に使用される */
+.box::after {
+  content: " ➥";
+}   

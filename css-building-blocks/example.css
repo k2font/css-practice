@@ -1,0 +1,42 @@
+h1 {
+  color: blue;
+}
+
+/* このように文法が間違っているブロックは無視される */
+/* ..special {
+  color: red;
+} */
+
+/* セレクター */
+h1{}
+
+/* class */
+.box{}
+
+/* ID */
+#unique{}
+
+/* 属性 */
+a[title] {}
+
+/* 属性2 */
+a[href="https://google.com"] {}
+
+/* 疑似クラス */
+a:hover {}
+
+/* 疑似要素 */
+/* pタグ内の最初の行をspanタグでラップしてスタイルしたような動作をする */
+/* https://developer.mozilla.org/ja/docs/Web/CSS/Pseudo-elements */
+p::first-line {}
+
+/* 結合子 */
+article > p {}
+
+/* ユニバーサルセレクタ */
+/* すべての要素に適用される */
+* {}
+
+/* 複数のクラスをすべて持っている場合にのみ適用される */
+/* この場合は、class="box special"の要素にのみ適用される */
+.box.speclal {}
