@@ -1,0 +1,20 @@
+.box {
+  /* background-color: #567895; */
+  background-image: linear-gradient(105deg, rgba(0, 249, 255, 1) 39%, rgba(51, 56, 57, 1) 100%);
+}
+
+h2 {
+  background-color: black;
+  color: white;
+}
+
+span {
+  background-color: rgba(255, 255, 255, .5);
+}
+
+.box2{
+  background-color: #567895;
+  border: 5px solid #0b385f;
+  border-bottom-style: dashed;
+  color: #fff
+}

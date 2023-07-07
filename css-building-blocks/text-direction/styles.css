@@ -1,0 +1,22 @@
+h1 {
+  writing-mode: vertical-lr;
+  background-color: black;
+  color: white;
+}
+
+.box {
+  /* width: 100px; */
+  inline-size: 100px;
+}
+
+.horizontal {
+  writing-mode: horizontal-tb;
+  background-color: black;
+  color: white;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+  background-color: black;
+  color: white;
+}

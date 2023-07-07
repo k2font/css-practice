@@ -1,0 +1,18 @@
+p, ul {
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+}
+
+.block, li {
+  border: 2px solid blue;
+  padding: .5em;
+}
+
+ul {
+  display: flex; /* インライン要素に変更する */
+  list-style: none; /* 箇条書きの中黒を削除する */
+}
+
+.block {
+  display: block;
+}
