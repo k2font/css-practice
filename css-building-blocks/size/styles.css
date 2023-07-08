@@ -1,0 +1,19 @@
+.wrapper {
+  font-size: 2em;
+}
+
+div {
+  border: 1px solid #333333;
+}
+
+.px {
+  width: 200px;
+}
+
+.vw {
+  width: 10vw; /* vw: ウインドウの幅でサイズが決定できる */
+}
+
+.em {
+  width: 10em; /* em: 親要素のサイズの相対値。親要素のwidth値を変更すると、この値も変化する */
+}
