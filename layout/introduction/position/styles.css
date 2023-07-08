@@ -1,0 +1,50 @@
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+p {
+  /* 絶対位置指定 */
+  background-color: rgb(207, 232, 220);
+  border: 2px solid rgb(79, 185, 227);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.positioned {
+  /* 相対位置指定 */
+  /* 通常フローの中で相対的な位置を指定する */ 
+  position: relative;
+  background: rgba(255, 84, 104, .3);
+  border: 2px solid rgb(255, 84, 104);
+  top: 30px;
+  left: 30px;
+}
+
+.relative {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  border: 2px solid rgb(79, 185, 227);
+}
+
+/* fixed */
+/* absoluteと同じく通常フローから外れるが、viewportからのオフセットが適用される */
+/* ただし、画面に固定された状態になる。スクロールしても動かない */
+.fixed {
+  border: 2px solid;
+  position: fixed;
+  top: 30px;
+  left: 30px;
+}
+
+/* stickey */
+/* 画面に表示されたタイミングから要素が画面から外れるまで表示される */
+.stickey {
+  position: sticky;
+  top: 30px;
+  left: 30px;
+  border: 2px solid rgb(79, 185, 227);
+  padding: 2px;
+}
